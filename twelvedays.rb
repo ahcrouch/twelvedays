@@ -8,7 +8,7 @@ ORDINALS = {}
 
 require 'date'
 
-if Date.today.month == 12 & Date.today.day > 24
+if Date.today.month == 12 && Date.today.day > 24
   last_christmas_eve_year = Date.today.year
 else
   last_christmas_eve_year = Date.today.year - 1
